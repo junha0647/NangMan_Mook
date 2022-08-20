@@ -113,4 +113,32 @@ public class DataController : MonoBehaviour
         SaveGameData();
     }
 
+
+    public void SaveUnlock(int chapterNumber)
+    {
+        switch (chapterNumber)
+        {
+            case 2:
+                _gameData.isClear2 = true;
+                _gameData.isClear2Count++;
+                SaveGameData();
+                break;
+            case 3:
+                _gameData.isClear3 = true;
+                _gameData.isClear3Count++;
+                SaveGameData();
+                break;
+            case 4:
+                _gameData.isClear4 = true;
+                _gameData.isClear4Count++;
+                SaveGameData();
+                break;
+            case 5:
+                _gameData.isClear5 = true;
+                _gameData.isClear5Count++;
+                SaveGameData();
+                break;
+        }
+    }
+
 }

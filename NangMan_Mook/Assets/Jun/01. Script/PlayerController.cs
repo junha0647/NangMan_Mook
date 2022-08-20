@@ -14,10 +14,14 @@ public class PlayerController : MonoBehaviour
 
     private Rigidbody2D rigid;
     private Animator anim;
+    private Transform Tr;
     private void Start()
     {
         rigid = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+        Tr = GetComponent<Transform>();
+        Spawn();
+
     }
 
     private void Update()
@@ -150,4 +154,36 @@ public class PlayerController : MonoBehaviour
     {
         anim.SetTrigger("isGameOver");
     }
+
+    private void Spawn()
+    {
+        DataController.Instance.LoadGameData();
+
+        string[] tmpPosArray = DataController.Instance.gameData.Pos.Split('/');
+        Vector2 TmpPos = new Vector2(float.Parse(tmpPosArray[0]), float.Parse(tmpPosArray[1]));
+
+        if (DataController.Instance.gameData.isClear5)
+        {
+            Tr.position = TmpPos;
+            DataController.Instance.gameData.isClear4 = false;
+            DataController.Instance.gameData.isClear3 = false;
+            DataController.Instance.gameData.isClear2 = false;
+        }
+        else if (DataController.Instance.gameData.isClear4)
+        {
+            Tr.position = TmpPos;
+            DataController.Instance.gameData.isClear3 = false;
+            DataController.Instance.gameData.isClear2 = false;
+        }
+        else if (DataController.Instance.gameData.isClear3)
+        {
+            Tr.position = TmpPos;
+            DataController.Instance.gameData.isClear2 = false;
+        }
+        else if (DataController.Instance.gameData.isClear2)
+        {
+            Tr.position = TmpPos;
+        }
+    }
+
 }
