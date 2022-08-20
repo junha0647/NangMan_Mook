@@ -6,7 +6,9 @@ public class PlayerController : MonoBehaviour
 {
     [Header("이동속도")][SerializeField] private float Speed;
     [Header("점프력")][SerializeField] private float JumpForce;
-    [Header("체력")][SerializeField] private int HealthPoint;
+    [Header("체력")] public int HealthPoint;
+
+    [Header("HP 이미지 오브젝트 넣기")][SerializeField] private GameObject[] UIhealth;
 
     private Rigidbody2D rigid;
     private Animator anim;
@@ -107,6 +109,7 @@ public class PlayerController : MonoBehaviour
     {
         if (collision.gameObject.tag == "Spike")
         {
+            UIhealth[HealthPoint - 1].SetActive(false);
             if (gameObject.layer == 8)
             {
                 OnDamaged();
@@ -116,9 +119,8 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    void OnDamaged()
+    private void OnDamaged()
     {
-        Debug.Log("데미지 입음");
         --HealthPoint;
         gameObject.layer = 9;
         anim.SetBool("isDamaged", true);
@@ -129,20 +131,19 @@ public class PlayerController : MonoBehaviour
         }
         else if(HealthPoint <= 0)
         {
+            gameObject.GetComponent<CapsuleCollider2D>().enabled = false;
             GameOver();
         }
     }
 
-    void OffDamaged()
+    private void OffDamaged()
     {
-        Debug.Log("무적 풀림");
         gameObject.layer = 8;
         anim.SetBool("isDamaged", false);
     }
 
-    void GameOver()
+    private void GameOver()
     {
-        Debug.Log("죽음");
         anim.SetTrigger("isGameOver");
     }
 }

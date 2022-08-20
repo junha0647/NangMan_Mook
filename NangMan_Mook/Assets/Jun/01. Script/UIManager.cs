@@ -8,7 +8,7 @@ public class UIManager : MonoBehaviour
 {
     [Header("Player 오브젝트 넣기")][SerializeField] private GameObject Player;
 
-    [Header("GameOver 오브젝트 넣기")][SerializeField] private Text GameOverText;
+    [Header("GameOver 오브젝트 넣기")][SerializeField] private Image GameOverText;
     [Header("FadeIn 오브젝트 넣기")][SerializeField] private Image FadeInImg;
 
     [Header("main Group 오브젝트 넣기")][SerializeField] private CanvasGroup mainGroup;
@@ -28,6 +28,7 @@ public class UIManager : MonoBehaviour
     private void Update()
     {
         DrawMode();
+        GameOver();
     }
 
     private void DrawMode()
@@ -51,8 +52,16 @@ public class UIManager : MonoBehaviour
             CanvasGroupOff(newGroup);
         }
     }
+    
+    private void GameOver()
+    {
+        if(Player.GetComponent<PlayerController>().HealthPoint <= 0)
+        {
+            StartCoroutine(GameOverScene());
+        }
+    }
 
-    public void GameOver()
+    public void MapOut()
     {
         StartCoroutine(GameOverScene());
     }
@@ -70,7 +79,7 @@ public class UIManager : MonoBehaviour
             GameOverText.color = alpha;
             yield return null;
         }
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(0.5f);
 
         time = 0f;
         F_time = 1f;

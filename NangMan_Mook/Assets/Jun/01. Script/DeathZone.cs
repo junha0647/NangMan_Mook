@@ -5,13 +5,14 @@ using UnityEngine;
 public class DeathZone : MonoBehaviour
 {
     [Header("UI 오브젝트 넣기")] [SerializeField] private UIManager ui;
+    [Header("Player 오브젝트 넣기")][SerializeField] private PlayerController Player;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.name == "Player")
         {
-            Debug.Log("죽음");
-            ui.GameOver();
+            ui.MapOut();
+            Player.GetComponent<Animator>().SetTrigger("isGameOver");
         }
     }
 }
