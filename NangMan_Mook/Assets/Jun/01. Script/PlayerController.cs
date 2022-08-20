@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -21,12 +22,12 @@ public class PlayerController : MonoBehaviour
         anim = GetComponent<Animator>();
         Tr = GetComponent<Transform>();
         Spawn();
-
     }
 
+    private bool isGameOver = false;
     private void Update()
     {
-        if(!UIManager.isDraw)
+        if(!UIManager.isDraw && !isGameOver)
         {
             Move();
             Jump();
@@ -83,7 +84,6 @@ public class PlayerController : MonoBehaviour
         {
             rigid.constraints = RigidbodyConstraints2D.FreezeRotation;
         }
-            
     }
 
     private void Jump()
@@ -125,6 +125,23 @@ public class PlayerController : MonoBehaviour
                 rigid.AddForce(new Vector2(dirc, 1) * 5, ForceMode2D.Impulse);
             }
         }
+
+        if(collision.gameObject.tag == "DeathZone")
+        {
+            UIhealth[0].SetActive(false);
+            UIhealth[1].SetActive(false);
+            UIhealth[2].SetActive(false);
+            gameObject.layer = 9;
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.gameObject.tag == "Mook")
+        {
+            Destroy(collision.gameObject);
+            SceneManager.LoadScene("04. ClearScene");
+        }
     }
 
     private void OnDamaged()
@@ -152,6 +169,7 @@ public class PlayerController : MonoBehaviour
 
     private void GameOver()
     {
+        isGameOver = true;
         anim.SetTrigger("isGameOver");
     }
 
@@ -185,5 +203,4 @@ public class PlayerController : MonoBehaviour
             Tr.position = TmpPos;
         }
     }
-
 }

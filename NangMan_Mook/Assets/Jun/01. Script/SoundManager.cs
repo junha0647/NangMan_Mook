@@ -22,6 +22,7 @@ public class SoundManager : MonoBehaviour
         {
             case "JUMP":
                 audioSource.clip = audioJump;
+                audioSource.volume = 0.1f;
                 audioSource.PlayOneShot(audioJump);
                 break;
             case "DAMAGED":

@@ -6,7 +6,7 @@ using UnityEngine;
 [Serializable] // 직렬화
 public class GamaData
 {
-    public string Pos;
+    public string Pos = "0/0";
 
     // 각 지역의 잠금여부
     public bool isClear2;
