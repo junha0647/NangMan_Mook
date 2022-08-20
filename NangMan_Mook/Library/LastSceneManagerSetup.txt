@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Jun/04. Scene/Jun.unity
+- path: Assets/Chan/Chan.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

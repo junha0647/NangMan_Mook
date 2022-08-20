@@ -13,12 +13,19 @@ public class Line : MonoBehaviour
 
     float pointsMinDistance = 0.1f;
     float circleColliderRadius;
+    float circleCount = 0f;
+
+
+
+
     [SerializeField] private float DestroyTime;
 
     private void Start()
     {
+
         StartCoroutine("Destroy");
     }
+
 
     public void AddPoint(Vector2 newPoint)
     {
@@ -35,7 +42,8 @@ public class Line : MonoBehaviour
         CircleCollider2D circleCollider = this.gameObject.AddComponent<CircleCollider2D>();
         circleCollider.offset = newPoint;
         circleCollider.radius = circleColliderRadius;
-
+        circleCount++;
+        //Debug.Log(circleCount);
 
         // Line Renderer
         lineRenderer.positionCount = pointsCount;
@@ -77,6 +85,61 @@ public class Line : MonoBehaviour
 
         edgeCollider.edgeRadius = circleColliderRadius;
     }
+
+    public void Gravity(float width)
+    {
+        if (circleCount > 50)
+        {
+            rigidBody.gravityScale = (width * 3) + 2.5f;
+        }
+        else if (circleCount > 25)
+        {
+            rigidBody.gravityScale = (width * 2) + 2f;
+        }
+        else if (circleCount > 15)
+        {
+            rigidBody.gravityScale = (width * 1) + 1.5f;
+        }
+        else if (circleCount > 5 && width > 0.5f)
+        {
+            rigidBody.gravityScale = (width * 0.5f) + 1f;
+        }
+    }
+
+    public void Mass(float width)
+    {
+
+        if (width <= 0.1f)
+        {
+            rigidBody.mass = 1f;
+        }
+        else if (width <= 0.2f)
+        {
+            rigidBody.mass = 2f;
+        }
+        else if (width <= 0.3f)
+        {
+            rigidBody.mass = 4f;
+        }
+        else if (width <= 0.4f)
+        {
+            rigidBody.mass = 8f;
+        }
+        else if (width <= 0.5f)
+        {
+            rigidBody.mass = 16f;
+        }
+        else if (width <= 0.6f)
+        {
+            rigidBody.mass = 32f;
+        }
+        else if (width >= 0.7f)
+        {
+            rigidBody.mass = 64f;
+        }
+
+    }
+
 
     // ªË¡¶
     IEnumerator Destroy()

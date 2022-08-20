@@ -32,16 +32,16 @@ public class UIManager : MonoBehaviour
     {
         if(!isDraw && !isPaused && (Input.GetKeyDown(KeyCode.Tab) || Input.GetKeyDown(KeyCode.G)))
         {
-            Time.timeScale = 0;
+            //Time.timeScale = 0;
             isDraw = true;
-            LD.isPaused = true;
+            //LD.isPaused = true;
             Player.layer = 7;
             CanvasGroupOn(newGroup);
             CanvasGroupOff(mainGroup);
         }
         else if(isDraw && !isPaused && (Input.GetKeyDown(KeyCode.Tab) || Input.GetKeyDown(KeyCode.G)))
         {
-            Time.timeScale = 1;
+            //Time.timeScale = 1;
             isDraw = false;
             Player.layer = 8;
             CanvasGroupOn(mainGroup);

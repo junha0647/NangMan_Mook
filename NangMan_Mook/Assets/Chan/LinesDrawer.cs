@@ -13,8 +13,8 @@ public class LinesDrawer : MonoBehaviour
     public Gradient lineColor;
     public float linePointsMinDistance;
     public float lineWidth;
-    [SerializeField]private float MaxlineWidth;
-    [SerializeField]private float MinlineWidth;
+    [SerializeField] private float MaxlineWidth;
+    [SerializeField] private float MinlineWidth;
 
     public bool isPaused = false;
     public bool Drawing = false;
@@ -29,29 +29,28 @@ public class LinesDrawer : MonoBehaviour
         canDrawOverLayerIndex = LayerMask.NameToLayer("Platform");
     }
 
-    
+
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.G) || Input.GetKeyDown(KeyCode.Tab))
         {
             if (isPaused)
             {
-                //Time.timeScale = 1;
-                //isPaused = false;
+                Time.timeScale = 1;
+                isPaused = false;
             }
-            else if(!isPaused)
+            else if (!isPaused)
             {
-                //Time.timeScale = 0;
-                //isPaused = true;
+                Time.timeScale = 0;
+                isPaused = true;
             }
         }
-        
+
         if (isPaused)
         {
             DrawLine();
             wheelInput = Input.GetAxis("Mouse ScrollWheel");
         }
-        
 
     }
 
@@ -88,8 +87,6 @@ public class LinesDrawer : MonoBehaviour
         Drawing = true;
         currentLine = Instantiate(linePrefab).GetComponent<Line>();
 
-        //currentLine.points.Add(Camera.main.ScreenToWorldPoint(Input.mousePosition));
-
         currentLine.UsePhysics(false);
         currentLine.SetLineColor(lineColor);
         currentLine.SetPointsMinDistance(linePointsMinDistance);
@@ -101,38 +98,40 @@ public class LinesDrawer : MonoBehaviour
         Vector2 mousePosition = cam.ScreenToWorldPoint(Input.mousePosition);
         RaycastHit2D hit = Physics2D.CircleCast(mousePosition, lineWidth / 5f, Vector2.zero, 0.5f, cantDrawOverLayer[0]);
         Debug.DrawRay(mousePosition, Vector2.down, new Color(1, 0, 0));
-       
+
         if (hit)
         {
             EndDraw();
         }
         else
         {
-            currentLine.AddPoint(mousePosition); 
+            currentLine.AddPoint(mousePosition);
         }
-   
+
     }
 
     void EndDraw()
     {
-        if(currentLine != null)
+        if (currentLine != null)
         {
             Drawing = false;
-            if(currentLine.pointsCount < 5)
+            if (currentLine.pointsCount < 10)
             {
                 // If line has one Point
                 Destroy(currentLine.gameObject);
             }
             else
             {
-                currentLine.gameObject.layer = canDrawOverLayerIndex;
+                //currentLine.gameObject.layer = canDrawOverLayerIndex;
+                currentLine.Gravity(lineWidth);
+                currentLine.Mass(lineWidth);
                 currentLine.UsePhysics(true);
                 currentLine = null;
-                
+
             }
         }
     }
 
-    
+
 
 }
