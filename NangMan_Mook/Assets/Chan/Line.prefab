@@ -189,4 +189,4 @@ MonoBehaviour:
   points: []
   pointsCount: 0
   circleCount: 0
-  DestroyTime: 4.5
+  DestroyTime: 5

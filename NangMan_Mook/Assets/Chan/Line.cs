@@ -93,7 +93,7 @@ public class Line : MonoBehaviour
         else
         {
             circleColliderRadius = width / 2f;
-            SetPointsMinDistance(0.2f);
+            SetPointsMinDistance(0.3f);
         }
 
 
