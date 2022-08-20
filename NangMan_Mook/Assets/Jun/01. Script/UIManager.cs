@@ -52,11 +52,13 @@ public class UIManager : MonoBehaviour
             CanvasGroupOff(newGroup);
         }
     }
-    
+
+    private bool isGameOver = false;
     private void GameOver()
     {
-        if(Player.GetComponent<PlayerController>().HealthPoint <= 0)
+        if(Player.GetComponent<PlayerController>().HealthPoint <= 0 && !isGameOver)
         {
+            isGameOver = true;
             StartCoroutine(GameOverScene());
         }
     }
@@ -68,8 +70,10 @@ public class UIManager : MonoBehaviour
 
     private float time = 0f;
     private float F_time = 1f;
+    [Header("UI 오브젝트 넣기")][SerializeField] private SoundManager soundManager;
     private IEnumerator GameOverScene()
     {
+        soundManager.PlaySound("GAMEOVER");
         GameOverText.gameObject.SetActive(true);
         Color alpha = GameOverText.color;
         while (alpha.a < 1f)

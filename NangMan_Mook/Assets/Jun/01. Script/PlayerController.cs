@@ -10,6 +10,8 @@ public class PlayerController : MonoBehaviour
 
     [Header("HP 이미지 오브젝트 넣기")][SerializeField] private GameObject[] UIhealth;
 
+    [Header("UI 오브젝트 넣기")][SerializeField] private SoundManager soundManager;
+
     private Rigidbody2D rigid;
     private Animator anim;
     private void Start()
@@ -84,6 +86,7 @@ public class PlayerController : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.Space) && !anim.GetBool("isJump"))
         {
+            soundManager.PlaySound("JUMP");
             rigid.AddForce(Vector2.up * JumpForce, ForceMode2D.Impulse);
             anim.SetBool("isJump", true);
         }
@@ -109,6 +112,7 @@ public class PlayerController : MonoBehaviour
     {
         if (collision.gameObject.tag == "Spike")
         {
+            soundManager.PlaySound("DAMAGED");
             UIhealth[HealthPoint - 1].SetActive(false);
             if (gameObject.layer == 8)
             {
