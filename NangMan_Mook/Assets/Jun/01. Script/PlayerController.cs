@@ -90,7 +90,8 @@ public class PlayerController : MonoBehaviour
         {
             Vector2 frontVec = new Vector2(rigid.position.x + rigid.velocity.x * 0.03f, rigid.position.y);
             Debug.DrawRay(frontVec, Vector3.down, new Color(1, 0, 0));
-            RaycastHit2D rayHit = Physics2D.Raycast(frontVec, Vector3.down, 2.5f, LayerMask.GetMask("Platform"));
+            RaycastHit2D rayHit = Physics2D.Raycast(frontVec, Vector3.down, 2.5f, LayerMask.GetMask("Platform", "Line"));
+            
             if (rayHit.collider != null)
             {
                 if (rayHit.distance < 1.5f)
@@ -102,17 +103,6 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    //private void OnTriggerEnter2D(Collider2D collision)
-    //{
-    //    if (collision.gameObject.tag == "Spike")
-    //    {
-    //        if (this.gameObject.layer == 8)
-    //        {
-    //            OnDamaged();
-    //        }
-    //    }
-    //}
-
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "Spike")
@@ -121,7 +111,7 @@ public class PlayerController : MonoBehaviour
             {
                 OnDamaged();
                 int dirc = transform.position.x - collision.transform.position.x > 0 ? 1 : -1;
-                rigid.AddForce(new Vector2(dirc, 1) * 3, ForceMode2D.Impulse);
+                rigid.AddForce(new Vector2(dirc, 1) * 5, ForceMode2D.Impulse);
             }
         }
     }
@@ -131,13 +121,28 @@ public class PlayerController : MonoBehaviour
         Debug.Log("데미지 입음");
         --HealthPoint;
         gameObject.layer = 9;
+        anim.SetBool("isDamaged", true);
 
-        Invoke("OffDamaged", 1f);
+        if (HealthPoint > 0)
+        {
+            Invoke("OffDamaged", 0.5f);
+        }
+        else if(HealthPoint <= 0)
+        {
+            GameOver();
+        }
     }
 
     void OffDamaged()
     {
         Debug.Log("무적 풀림");
         gameObject.layer = 8;
+        anim.SetBool("isDamaged", false);
+    }
+
+    void GameOver()
+    {
+        Debug.Log("죽음");
+        anim.SetTrigger("isGameOver");
     }
 }

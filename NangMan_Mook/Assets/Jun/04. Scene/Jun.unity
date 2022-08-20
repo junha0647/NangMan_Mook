@@ -1661,7 +1661,7 @@ MonoBehaviour:
   FadeInImg: {fileID: 1192921107}
   mainGroup: {fileID: 1543397047}
   newGroup: {fileID: 1186194875}
-  LD: {fileID: 0}
+  LD: {fileID: 1023470678}
 --- !u!114 &955860560
 MonoBehaviour:
   m_ObjectHideFlags: 0

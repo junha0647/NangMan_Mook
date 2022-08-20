@@ -12,9 +12,6 @@ public class DrawLine : MonoBehaviour
 
     private bool isPaused = false;
 
-    
-
-
     void Update()
     {
         //if(Input.GetKeyDown(KeyCode.G) || Input.GetKeyDown(KeyCode.Tab))

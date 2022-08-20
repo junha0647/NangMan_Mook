@@ -32,19 +32,19 @@ public class LinesDrawer : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.G) || Input.GetKeyDown(KeyCode.Tab))
-        {
-            if (isPaused)
-            {
-                Time.timeScale = 1;
-                isPaused = false;
-            }
-            else if (!isPaused)
-            {
-                Time.timeScale = 0;
-                isPaused = true;
-            }
-        }
+        //if (Input.GetKeyDown(KeyCode.G) || Input.GetKeyDown(KeyCode.Tab))
+        //{
+        //    if (isPaused)
+        //    {
+        //        Time.timeScale = 1;
+        //        isPaused = false;
+        //    }
+        //    else if (!isPaused)
+        //    {
+        //        Time.timeScale = 0;
+        //        isPaused = true;
+        //    }
+        //}
 
         if (isPaused)
         {

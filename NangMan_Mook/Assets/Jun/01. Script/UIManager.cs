@@ -16,9 +16,13 @@ public class UIManager : MonoBehaviour
 
     [Header("LineDrawer 오브젝트 넣기")][SerializeField] private LinesDrawer LD;
 
+    public static bool isDraw = false;
+    public static bool isPaused = false;
     private void Start()
     {
         Time.timeScale = 1;
+        isDraw = false;
+        isPaused = false;
     }
 
     private void Update()
@@ -26,27 +30,25 @@ public class UIManager : MonoBehaviour
         DrawMode();
     }
 
-    public static bool isDraw = false;
-    public static bool isPaused = false;
     private void DrawMode()
     {
         if(!isDraw && !isPaused && (Input.GetKeyDown(KeyCode.Tab) || Input.GetKeyDown(KeyCode.G)))
         {
-            //Time.timeScale = 0;
+            Time.timeScale = 0;
             isDraw = true;
-            //LD.isPaused = true;
+            LD.isPaused = true;
             Player.layer = 7;
             CanvasGroupOn(newGroup);
             CanvasGroupOff(mainGroup);
         }
         else if(isDraw && !isPaused && (Input.GetKeyDown(KeyCode.Tab) || Input.GetKeyDown(KeyCode.G)))
         {
-            //Time.timeScale = 1;
+            Time.timeScale = 1;
             isDraw = false;
+            LD.isPaused = false;
             Player.layer = 8;
             CanvasGroupOn(mainGroup);
             CanvasGroupOff(newGroup);
-            
         }
     }
 
