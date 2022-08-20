@@ -113,7 +113,6 @@ public class DataController : MonoBehaviour
         SaveGameData();
     }
 
-
     public void SaveUnlock(int chapterNumber)
     {
         switch (chapterNumber)
@@ -141,4 +140,14 @@ public class DataController : MonoBehaviour
         }
     }
 
+    public void SaveReset()
+    {
+        _gameData.Pos = "0/0";
+        _gameData.isClear2 = false;
+        _gameData.isClear3 = false;
+        _gameData.isClear4 = false;
+        _gameData.isClear2Count = 0;
+        _gameData.isClear3Count = 0;
+        _gameData.isClear4Count = 0;
+    }
 }

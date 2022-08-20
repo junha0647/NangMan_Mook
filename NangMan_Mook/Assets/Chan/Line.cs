@@ -13,7 +13,7 @@ public class Line : MonoBehaviour
 
     float pointsMinDistance = 0.1f;
     float circleColliderRadius;
-    float circleCount = 0f;
+    public float circleCount = 0f;
 
 
 
@@ -22,7 +22,6 @@ public class Line : MonoBehaviour
 
     private void Start()
     {
-
         StartCoroutine("Destroy");
     }
 
@@ -81,7 +80,22 @@ public class Line : MonoBehaviour
         lineRenderer.startWidth = width;
         lineRenderer.endWidth = width;
 
-        circleColliderRadius = width / 2f;
+        if(width > 0.5)
+        {
+            circleColliderRadius = width / 3f;
+            SetPointsMinDistance(0.6f);
+        }
+        else if(width > 0.3)
+        {
+            circleColliderRadius = width / 2.5f;
+            SetPointsMinDistance(0.4f);
+        }
+        else
+        {
+            circleColliderRadius = width / 2f;
+            SetPointsMinDistance(0.2f);
+        }
+
 
         edgeCollider.edgeRadius = circleColliderRadius;
     }
@@ -139,7 +153,6 @@ public class Line : MonoBehaviour
         }
 
     }
-
 
     // ªË¡¶
     IEnumerator Destroy()

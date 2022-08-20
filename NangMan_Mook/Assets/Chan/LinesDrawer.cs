@@ -7,14 +7,14 @@ public class LinesDrawer : MonoBehaviour
 
     public GameObject linePrefab;
     public LayerMask[] cantDrawOverLayer;
-    int canDrawOverLayerIndex;
+    //int canDrawOverLayerIndex;
 
     [Space(30f)]
     public Gradient lineColor;
     public float linePointsMinDistance;
     public float lineWidth;
-    [SerializeField] private float MaxlineWidth;
-    [SerializeField] private float MinlineWidth;
+    [SerializeField] private float MaxlineWidth = 0;
+    [SerializeField] private float MinlineWidth = 0;
 
     public bool isPaused = false;
     public bool Drawing = false;
@@ -26,32 +26,17 @@ public class LinesDrawer : MonoBehaviour
     void Start()
     {
         cam = Camera.main;
-        canDrawOverLayerIndex = LayerMask.NameToLayer("Platform");
+        //canDrawOverLayerIndex = LayerMask.NameToLayer("Platform");
     }
 
 
     void Update()
     {
-        //if (Input.GetKeyDown(KeyCode.G) || Input.GetKeyDown(KeyCode.Tab))
-        //{
-        //    if (isPaused)
-        //    {
-        //        Time.timeScale = 1;
-        //        isPaused = false;
-        //    }
-        //    else if (!isPaused)
-        //    {
-        //        Time.timeScale = 0;
-        //        isPaused = true;
-        //    }
-        //}
-
         if (isPaused)
         {
             DrawLine();
             wheelInput = Input.GetAxis("Mouse ScrollWheel");
         }
-
     }
 
     private void DrawLine()
@@ -99,7 +84,7 @@ public class LinesDrawer : MonoBehaviour
         RaycastHit2D hit = Physics2D.CircleCast(mousePosition, lineWidth / 5f, Vector2.zero, 0.5f, cantDrawOverLayer[0]);
         Debug.DrawRay(mousePosition, Vector2.down, new Color(1, 0, 0));
 
-        if (hit)
+        if (hit || currentLine.circleCount > 80)
         {
             EndDraw();
         }
@@ -115,7 +100,7 @@ public class LinesDrawer : MonoBehaviour
         if (currentLine != null)
         {
             Drawing = false;
-            if (currentLine.pointsCount < 10)
+            if (currentLine.pointsCount < 15)
             {
                 // If line has one Point
                 Destroy(currentLine.gameObject);
@@ -127,7 +112,6 @@ public class LinesDrawer : MonoBehaviour
                 currentLine.Mass(lineWidth);
                 currentLine.UsePhysics(true);
                 currentLine = null;
-
             }
         }
     }

@@ -1,6 +1,6 @@
 Using pre-set license
 Built from 'master' branch; Version is '2020.3.36f1 (71f96b79b9f0) revision 7469419'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19043) 64bit Core' Language: 'ko' Physical Memory: 16243 MB
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'ko' Physical Memory: 24531 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
@@ -11,113 +11,185 @@ C:\Program Files\Unity\Hub\Editor\2020.3.36f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/user/Documents/GitHub/NangMan_Mook/NangMan_Mook
+D:/Documents/GitHub/NangMan_Mook/NangMan_Mook
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-9977
-Successfully changed project path to: C:/Users/user/Documents/GitHub/NangMan_Mook/NangMan_Mook
-C:/Users/user/Documents/GitHub/NangMan_Mook/NangMan_Mook
+5835
+Successfully changed project path to: D:/Documents/GitHub/NangMan_Mook/NangMan_Mook
+D:/Documents/GitHub/NangMan_Mook/NangMan_Mook
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 35.33 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 46.63 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.36f1 (71f96b79b9f0)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.36f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/user/Documents/GitHub/NangMan_Mook/NangMan_Mook/Assets
+[Subsystems] Discovering subsystems at path D:/Documents/GitHub/NangMan_Mook/NangMan_Mook/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3060 Ti (ID=0x2489)
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c82)
     Vendor:   
-    VRAM:     8050 MB
-    Driver:   30.0.14.9676
+    VRAM:     4018 MB
+    Driver:   30.0.15.1215
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.36f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.36f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.36f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56460
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56628
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.36f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002281 seconds.
+Registered in 0.003711 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 36.59 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 44.98 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.435 seconds
+- Completed reload, in  0.613 seconds
 Domain Reload Profiling:
-	ReloadAssembly (435ms)
-		BeginReloadAssembly (56ms)
+	ReloadAssembly (614ms)
+		BeginReloadAssembly (84ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (326ms)
-			LoadAssemblies (54ms)
+		EndReloadAssembly (448ms)
+			LoadAssemblies (80ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (102ms)
+			SetupTypeCache (147ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (19ms)
-			SetupLoadedEditorAssemblies (123ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (164ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (37ms)
-				BeforeProcessingInitializeOnLoad (11ms)
-				ProcessInitializeOnLoadAttributes (53ms)
-				ProcessInitializeOnLoadMethodAttributes (19ms)
+				RefreshPlugins (45ms)
+				BeforeProcessingInitializeOnLoad (13ms)
+				ProcessInitializeOnLoadAttributes (77ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003296 seconds.
+Registered in 0.002865 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-0000026E62880CE0 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E728CEE20 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E6297C060 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E63393040 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026FFDF1A020 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E628A58F0 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E6299D7B0 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E628A58F0 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E629F7220 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E6299D7B0 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E62D6A020 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E62C01E30 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E6238FC20 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E6299D7B0 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E6299D7B0 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E6299D7B0 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E63338CF0 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E62BB1E30 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026FFE4B4E30 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E62878020 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026FFE573DA0 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026FFE410930 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E6238FC20 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E62878020 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026FFE649420 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E6299D7B0 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E62E0E6F0 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026FFE5B33C0 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026FFE069010 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E62E0E6F0 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E6299D7B0 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E62198710 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E62390BA0 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E62AC3620 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026FFE5B33C0 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E62D99830 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 33.12 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 43.66 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.789 seconds
+- Completed reload, in  1.122 seconds
 Domain Reload Profiling:
-	ReloadAssembly (790ms)
-		BeginReloadAssembly (106ms)
+	ReloadAssembly (1123ms)
+		BeginReloadAssembly (171ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (14ms)
-		EndReloadAssembly (638ms)
-			LoadAssemblies (81ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (884ms)
+			LoadAssemblies (122ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (191ms)
+			SetupTypeCache (288ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (34ms)
-			SetupLoadedEditorAssemblies (263ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (344ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (33ms)
-				BeforeProcessingInitializeOnLoad (66ms)
-				ProcessInitializeOnLoadAttributes (140ms)
-				ProcessInitializeOnLoadMethodAttributes (16ms)
-				AfterProcessingInitializeOnLoad (7ms)
+				RefreshPlugins (44ms)
+				BeforeProcessingInitializeOnLoad (80ms)
+				ProcessInitializeOnLoadAttributes (183ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (12ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (1ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.33 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 1.01 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2369 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2368 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 105.4 MB.
 System memory in use after: 105.4 MB.
 
-Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 2803.
-Total: 2.225400 ms (FindLiveObjects: 0.104600 ms CreateObjectMapping: 0.041200 ms MarkObjects: 1.978700 ms  DeleteObjects: 0.100000 ms)
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 2802.
+Total: 4.703200 ms (FindLiveObjects: 0.354800 ms CreateObjectMapping: 0.166000 ms MarkObjects: 3.999100 ms  DeleteObjects: 0.182100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -131,712 +203,132 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Jun
-  artifactKey: Guid(c6880b0eafcb57144884b8f7ed27f3ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jun using Guid(c6880b0eafcb57144884b8f7ed27f3ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ad7211f45f767c983f1607f29cb5ac5') in 0.004219 seconds 
+  path: Assets/Chan/Line.prefab
+  artifactKey: Guid(b940c230bcb3da94095f00e130b7e840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chan/Line.prefab using Guid(b940c230bcb3da94095f00e130b7e840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e54eaffb8c4671ac3414a458ea8d753') in 0.110246 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.594407 seconds.
-  path: Assets/Jun/03. Image/Spike.prefab
-  artifactKey: Guid(3335d025487076047a242d2caf3de83b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jun/03. Image/Spike.prefab using Guid(3335d025487076047a242d2caf3de83b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e61d553a066551db5551a24c988ff27') in 0.066647 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.659121 seconds.
-  path: Assets/Jun/03. Image/UI
-  artifactKey: Guid(84cb41d226e4751458ee06fec303cc02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jun/03. Image/UI using Guid(84cb41d226e4751458ee06fec303cc02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '248882c9e54dbceb63656504b52c0985') in 0.002872 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.059956 seconds.
-  path: Assets/Jun/03. Image/UI/namu.prefab
-  artifactKey: Guid(74335c0e1b84dcc4183f93c2ee598b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jun/03. Image/UI/namu.prefab using Guid(74335c0e1b84dcc4183f93c2ee598b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39858099fa18b799f74906dcecc75f12') in 0.008862 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/Jun/03. Image/UI/나무.png
-  artifactKey: Guid(f71dd118b6154a34e86d52e9a8b264d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jun/03. Image/UI/나무.png using Guid(f71dd118b6154a34e86d52e9a8b264d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '449893916ca7adda9dc305d41cc968f9') in 0.024446 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000171 seconds.
-  path: Assets/Jun/03. Image/UI/하.png
-  artifactKey: Guid(67449dcb413aa984cbc017440f35035d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jun/03. Image/UI/하.png using Guid(67449dcb413aa984cbc017440f35035d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a688e04e0473581fa56244df36015dac') in 0.018295 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000151 seconds.
-  path: Assets/Jun/03. Image/UI/쥐.png
-  artifactKey: Guid(be17c2051b8bad3478803102c76f175a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jun/03. Image/UI/쥐.png using Guid(be17c2051b8bad3478803102c76f175a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36b8165fbc94f6397d62fae4b26ed75f') in 0.017108 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000145 seconds.
-  path: Assets/Jun/03. Image/UI/Stone.prefab
-  artifactKey: Guid(6f1378d23217f914f8bcaccc37dd96d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jun/03. Image/UI/Stone.prefab using Guid(6f1378d23217f914f8bcaccc37dd96d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34de5873eecab0fcee14a715ff706793') in 0.011859 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/Jun/03. Image/UI/좌.png
-  artifactKey: Guid(00a9044f532e2284fa41b260acc5d541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jun/03. Image/UI/좌.png using Guid(00a9044f532e2284fa41b260acc5d541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbb1c44f389fce4c955d156f4fc4ff67') in 0.020970 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/Jun/03. Image/UI/스페.png
-  artifactKey: Guid(5b053e2a60f1cad4c89f3b607f193ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jun/03. Image/UI/스페.png using Guid(5b053e2a60f1cad4c89f3b607f193ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e034201a573066383cc257268d695ad') in 0.012447 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Assets/Jun/03. Image/UI/t4.png
-  artifactKey: Guid(c7f6285b44ddd564e92180c6ce69b2cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jun/03. Image/UI/t4.png using Guid(c7f6285b44ddd564e92180c6ce69b2cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '298d8358b781c461201d72dbc3959dc4') in 0.021751 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000160 seconds.
-  path: Assets/Jun/03. Image/UI/우.png
-  artifactKey: Guid(ab0634040bf716d4088f407c0e471d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jun/03. Image/UI/우.png using Guid(ab0634040bf716d4088f407c0e471d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4770ff64a32fc6f817a2ac495dcabd3c') in 0.017748 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000188 seconds.
-  path: Assets/Jun/03. Image/UI/t2.png
-  artifactKey: Guid(476241948b084144fbee223a412a940a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jun/03. Image/UI/t2.png using Guid(476241948b084144fbee223a412a940a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8b53dfd1eafee8d31705e4fdda1e588') in 0.021251 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000174 seconds.
-  path: Assets/Jun/03. Image/UI/탭.png
-  artifactKey: Guid(9206bbc6de75c4a45a937a1a1aa2b05e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jun/03. Image/UI/탭.png using Guid(9206bbc6de75c4a45a937a1a1aa2b05e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84f67dcde8e7837359ec0db1fa2cdd56') in 0.029047 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000246 seconds.
-  path: Assets/Jun/03. Image/UI/t5.png
-  artifactKey: Guid(e64ed44dc7b615248b6aa170942de2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jun/03. Image/UI/t5.png using Guid(e64ed44dc7b615248b6aa170942de2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bc102575c65f0052a80d30efe182533') in 0.012099 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000201 seconds.
-  path: Assets/Jun/03. Image/UI/위.png
-  artifactKey: Guid(84a86b555539d694f8fc519c6b87bc81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jun/03. Image/UI/위.png using Guid(84a86b555539d694f8fc519c6b87bc81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03e238e668bf59c685d32f5199343332') in 0.009050 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/Jun/03. Image/UI/돌.png
-  artifactKey: Guid(af24382790e21d7478c1e3a819003a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jun/03. Image/UI/돌.png using Guid(af24382790e21d7478c1e3a819003a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db174e7e9bb7b9cb429ae88ce824647e') in 0.011784 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/Jun/03. Image/UI/t3.png
-  artifactKey: Guid(a9d1d24a5efc1084f888328c717f7bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jun/03. Image/UI/t3.png using Guid(a9d1d24a5efc1084f888328c717f7bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f914dd03bbb261b9b32894554473ea4') in 0.010625 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/Jun/03. Image/UI/t1.png
-  artifactKey: Guid(ef8f709fd9919d94b8827d68ef1cf4e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jun/03. Image/UI/t1.png using Guid(ef8f709fd9919d94b8827d68ef1cf4e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46539fc2d3b684b3d4659ec6207a4cc7') in 0.010489 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.722494 seconds.
-  path: Assets/Jun/03. Image/UI/namu.prefab
-  artifactKey: Guid(74335c0e1b84dcc4183f93c2ee598b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jun/03. Image/UI/namu.prefab using Guid(74335c0e1b84dcc4183f93c2ee598b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45ee1860c807856e332fe5633911284e') in 0.008894 seconds 
+  Time since last request: 0.000380 seconds.
+  path: Assets/Chan/LinesDrawer.cs
+  artifactKey: Guid(be60127287ddac44e9be154c88555670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chan/LinesDrawer.cs using Guid(be60127287ddac44e9be154c88555670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68496079da1ec00d078bc2590055e3d3') in 0.008178 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004837 seconds.
+Registered in 0.003023 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-0000026E63A30430 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E728CEE20 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026FFD9E6840 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E628AC050 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E63F76020 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E62C70040 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E63F76020 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E65E06450 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E63F76020 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E624F3B00 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E63A30430 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E67364AA0 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026FFD9E6840 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E624F3B00 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E62DA45D0 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E6200C0B0 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E62296420 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E674BEE60 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E62D6A020 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E63984C40 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026FFDD0FF20 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E6252A410 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026FFE4EC040 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E68435030 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E626D4020 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E67352A80 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E62BD2010 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E68435030 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E62296420 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E62BD2010 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E65D5D620 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E6270C080 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E66E23DE0 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E62DA45D0 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026FFD9E6840 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E67352A80 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.37 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.734 seconds
+- Completed reload, in  1.051 seconds
 Domain Reload Profiling:
-	ReloadAssembly (734ms)
-		BeginReloadAssembly (98ms)
+	ReloadAssembly (1052ms)
+		BeginReloadAssembly (161ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (25ms)
-		EndReloadAssembly (589ms)
-			LoadAssemblies (89ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (810ms)
+			LoadAssemblies (137ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (191ms)
+			SetupTypeCache (272ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (29ms)
-			SetupLoadedEditorAssemblies (234ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (69ms)
-				ProcessInitializeOnLoadAttributes (143ms)
-				ProcessInitializeOnLoadMethodAttributes (11ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (3ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.41 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2362 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 108.3 MB.
-System memory in use after: 108.4 MB.
-
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2827.
-Total: 2.656400 ms (FindLiveObjects: 0.121000 ms CreateObjectMapping: 0.048500 ms MarkObjects: 2.368000 ms  DeleteObjects: 0.117600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 348.595391 seconds.
-  path: Assets/Jun/03. Image/UI/fire.png
-  artifactKey: Guid(21cd7da9256e4ba46b791e3837b6d205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jun/03. Image/UI/fire.png using Guid(21cd7da9256e4ba46b791e3837b6d205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0225837b41adc75ffac90248c0531cf8') in 0.040500 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 36.198861 seconds.
-  path: Assets/Jun/03. Image/UI/DBFire.prefab
-  artifactKey: Guid(8dae0286da7ec604b97dd397aa2aae30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jun/03. Image/UI/DBFire.prefab using Guid(8dae0286da7ec604b97dd397aa2aae30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41dd82ff97ad95e53f2c5cab0b0ca9a7') in 0.021465 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002799 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.36 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.771 seconds
-Domain Reload Profiling:
-	ReloadAssembly (771ms)
-		BeginReloadAssembly (97ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (26ms)
-		EndReloadAssembly (623ms)
-			LoadAssemblies (85ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (205ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (29ms)
-			SetupLoadedEditorAssemblies (250ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (313ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (71ms)
-				ProcessInitializeOnLoadAttributes (154ms)
-				ProcessInitializeOnLoadMethodAttributes (13ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.35 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2362 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 108.3 MB.
-System memory in use after: 108.4 MB.
-
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2833.
-Total: 2.246400 ms (FindLiveObjects: 0.117400 ms CreateObjectMapping: 0.038100 ms MarkObjects: 1.997600 ms  DeleteObjects: 0.092200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 119.657014 seconds.
-  path: Assets/Jun/03. Image/UI/DBFire.prefab
-  artifactKey: Guid(8dae0286da7ec604b97dd397aa2aae30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jun/03. Image/UI/DBFire.prefab using Guid(8dae0286da7ec604b97dd397aa2aae30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75e9128c0d2a377fbeefacc68ffbb888') in 0.039698 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004317 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.33 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.872 seconds
-Domain Reload Profiling:
-	ReloadAssembly (872ms)
-		BeginReloadAssembly (145ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (30ms)
-		EndReloadAssembly (673ms)
-			LoadAssemblies (134ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (220ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (280ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (75ms)
-				ProcessInitializeOnLoadAttributes (180ms)
-				ProcessInitializeOnLoadMethodAttributes (13ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (3ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.36 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2362 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 108.4 MB.
-System memory in use after: 108.4 MB.
-
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2837.
-Total: 2.198700 ms (FindLiveObjects: 0.114900 ms CreateObjectMapping: 0.044200 ms MarkObjects: 1.943500 ms  DeleteObjects: 0.095100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003975 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.725 seconds
-Domain Reload Profiling:
-	ReloadAssembly (726ms)
-		BeginReloadAssembly (100ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (26ms)
-		EndReloadAssembly (577ms)
-			LoadAssemblies (91ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (186ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (27ms)
-			SetupLoadedEditorAssemblies (231ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (66ms)
-				ProcessInitializeOnLoadAttributes (142ms)
-				ProcessInitializeOnLoadMethodAttributes (11ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (3ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.34 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2362 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 108.4 MB.
-System memory in use after: 108.5 MB.
-
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2840.
-Total: 2.186500 ms (FindLiveObjects: 0.140400 ms CreateObjectMapping: 0.049800 ms MarkObjects: 1.910200 ms  DeleteObjects: 0.085000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 857.472957 seconds.
-  path: Assets/Jun/03. Image/UI/Stone.prefab
-  artifactKey: Guid(6f1378d23217f914f8bcaccc37dd96d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jun/03. Image/UI/Stone.prefab using Guid(6f1378d23217f914f8bcaccc37dd96d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f14af03f37a9a90865ce05848c8abf38') in 0.040790 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.917003 seconds.
-  path: Assets/Jun/03. Image/UI/Stone.prefab
-  artifactKey: Guid(6f1378d23217f914f8bcaccc37dd96d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jun/03. Image/UI/Stone.prefab using Guid(6f1378d23217f914f8bcaccc37dd96d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43b8a17151933a3f433df6b843004433') in 0.009573 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 20.317134 seconds.
-  path: Assets/Jun/03. Image/UI/namu.prefab
-  artifactKey: Guid(74335c0e1b84dcc4183f93c2ee598b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jun/03. Image/UI/namu.prefab using Guid(74335c0e1b84dcc4183f93c2ee598b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74720fc4d1fdbf93b966840525b58544') in 0.008101 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.922662 seconds.
-  path: Assets/Jun/03. Image/UI/namu.prefab
-  artifactKey: Guid(74335c0e1b84dcc4183f93c2ee598b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jun/03. Image/UI/namu.prefab using Guid(74335c0e1b84dcc4183f93c2ee598b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '271728d8100d22febb779fb1f91b97a0') in 0.009496 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.820568 seconds.
-  path: Assets/Jun/03. Image/UI/namu.prefab
-  artifactKey: Guid(74335c0e1b84dcc4183f93c2ee598b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jun/03. Image/UI/namu.prefab using Guid(74335c0e1b84dcc4183f93c2ee598b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2fd407eeb65ac4a72f75f9a616d7724') in 0.007985 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.008896 seconds.
-  path: Assets/Jun/06. TileMap
-  artifactKey: Guid(e7f94a226e637a8498f147de865eda8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jun/06. TileMap using Guid(e7f94a226e637a8498f147de865eda8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13e162e78518550f78d76ff51e8324a3') in 0.002552 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.050770 seconds.
-  path: Assets/Jun/06. TileMap/TileMapP.prefab
-  artifactKey: Guid(7db265e9cd912ea4a972f5b5bcd59be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jun/06. TileMap/TileMapP.prefab using Guid(7db265e9cd912ea4a972f5b5bcd59be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8f50041dcd81d8b7b0dd6e828646ab2') in 0.053007 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000165 seconds.
-  path: Assets/Jun/06. TileMap/tliemap_25.asset
-  artifactKey: Guid(0bf9b2bb340415348bb5c73753c14909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jun/06. TileMap/tliemap_25.asset using Guid(0bf9b2bb340415348bb5c73753c14909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6df3481dd900c0301e462a572dd5199d') in 0.014088 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000178 seconds.
-  path: Assets/Jun/06. TileMap/tliemap.png
-  artifactKey: Guid(fd13170de348b8f48b1306b742efe543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jun/06. TileMap/tliemap.png using Guid(fd13170de348b8f48b1306b742efe543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6877817b081c8c3d7ef892a9bf4dc95f') in 0.187066 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000160 seconds.
-  path: Assets/Jun/06. TileMap/tliemap_18.asset
-  artifactKey: Guid(ac9d524a2143ec046b64294bfea89fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jun/06. TileMap/tliemap_18.asset using Guid(ac9d524a2143ec046b64294bfea89fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a904c016e088b809195d00c28c7b7fc9') in 0.008689 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/Jun/06. TileMap/tliemap_27.asset
-  artifactKey: Guid(d6cf7d2a8b52ada4c9b07810024905b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jun/06. TileMap/tliemap_27.asset using Guid(d6cf7d2a8b52ada4c9b07810024905b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '682bbbc39ba089a4517dc4f43f8a7221') in 0.017091 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/Jun/06. TileMap/tliemap_1.asset
-  artifactKey: Guid(fd1078eae5a9c9842b508f46de91450a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jun/06. TileMap/tliemap_1.asset using Guid(fd1078eae5a9c9842b508f46de91450a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bd43da80bcda8ece68f5cb69b3a46a7') in 0.008174 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/Jun/06. TileMap/tliemap_5.asset
-  artifactKey: Guid(34a24a503f18e50478f60c4f5ac1efec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jun/06. TileMap/tliemap_5.asset using Guid(34a24a503f18e50478f60c4f5ac1efec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d593ae1d00549f8cabc4c807d46ce90') in 0.011421 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/Jun/06. TileMap/tliemap_0.asset
-  artifactKey: Guid(69fc45df33f61f6459a7950fd2fe0d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jun/06. TileMap/tliemap_0.asset using Guid(69fc45df33f61f6459a7950fd2fe0d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d2a1e84b4c68bb2367c66ed9b0f5535') in 0.007767 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000178 seconds.
-  path: Assets/Jun/06. TileMap/tliemap_28.asset
-  artifactKey: Guid(f0d2a4ff928cd81499043cc937c0e07e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jun/06. TileMap/tliemap_28.asset using Guid(f0d2a4ff928cd81499043cc937c0e07e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '613cc615bad081676b6410c15e467501') in 0.011982 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000246 seconds.
-  path: Assets/Jun/06. TileMap/tliemap_7.asset
-  artifactKey: Guid(047aa63e2b448a846a05a57c96b32bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jun/06. TileMap/tliemap_7.asset using Guid(047aa63e2b448a846a05a57c96b32bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9828426d4c2bf3fb4d3959dde39fcd3d') in 0.008884 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/Jun/06. TileMap/tliemap_20.asset
-  artifactKey: Guid(b1c0c9420211271448f0d29eb2ef36c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jun/06. TileMap/tliemap_20.asset using Guid(b1c0c9420211271448f0d29eb2ef36c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d75f6f6d5a97e8fadf0229434cdac3d') in 0.008833 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Assets/Jun/06. TileMap/tliemap_21.asset
-  artifactKey: Guid(1ccb826a22b64d9498f32e2bbf82dc3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jun/06. TileMap/tliemap_21.asset using Guid(1ccb826a22b64d9498f32e2bbf82dc3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01cb273c46c7652fa55076a9d8e42365') in 0.006865 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000186 seconds.
-  path: Assets/Jun/06. TileMap/tliemap_2.asset
-  artifactKey: Guid(de4f4a4fe63e3aa4f9629454dde7102e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jun/06. TileMap/tliemap_2.asset using Guid(de4f4a4fe63e3aa4f9629454dde7102e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a37581a6c61b6b71dab5f27f6f170dce') in 0.008520 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000152 seconds.
-  path: Assets/Jun/06. TileMap/tliemap_19.asset
-  artifactKey: Guid(fac42d89607563448b998846e8c9ff2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jun/06. TileMap/tliemap_19.asset using Guid(fac42d89607563448b998846e8c9ff2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b14587b40d945b05a9c12a1b560e7e1b') in 0.008802 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000192 seconds.
-  path: Assets/Jun/06. TileMap/tliemap_4.asset
-  artifactKey: Guid(be15736f23bbda241a0dee9878506a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jun/06. TileMap/tliemap_4.asset using Guid(be15736f23bbda241a0dee9878506a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71d04e8fbae3bb6b02f5a290896efccf') in 0.008450 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/Jun/06. TileMap/tliemap_8.asset
-  artifactKey: Guid(6a605dd292bbd9840b07585774c747b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jun/06. TileMap/tliemap_8.asset using Guid(6a605dd292bbd9840b07585774c747b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9547c9c61b68798574a1096649f05518') in 0.007354 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/Jun/06. TileMap/tliemap_24.asset
-  artifactKey: Guid(5ba1cf5ba9c8f944cbc8e178f0ec13a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jun/06. TileMap/tliemap_24.asset using Guid(5ba1cf5ba9c8f944cbc8e178f0ec13a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d5bae88d504d3c343962ad7f23b64cf') in 0.009074 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000170 seconds.
-  path: Assets/Jun/06. TileMap/tliemap_26.asset
-  artifactKey: Guid(de85a7802ea124d40b894986c408c72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jun/06. TileMap/tliemap_26.asset using Guid(de85a7802ea124d40b894986c408c72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcfe079c21e050f64eb5afe5cf082489') in 0.010201 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/Jun/06. TileMap/tliemap_3.asset
-  artifactKey: Guid(190eff1cace65d747aea52c9c9fcb134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jun/06. TileMap/tliemap_3.asset using Guid(190eff1cace65d747aea52c9c9fcb134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d68f9be3d15c28920a3738b4122f15e') in 0.011206 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/Jun/06. TileMap/tliemap_22.asset
-  artifactKey: Guid(387f0fea3d76518498846633c56eb92b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jun/06. TileMap/tliemap_22.asset using Guid(387f0fea3d76518498846633c56eb92b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '973e5ff2d73a1f19a7583ab8dea3c836') in 0.009281 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/Jun/06. TileMap/tliemap_6.asset
-  artifactKey: Guid(8ea83e244b1078341b923fb4e06bae91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jun/06. TileMap/tliemap_6.asset using Guid(8ea83e244b1078341b923fb4e06bae91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caf0cd5d25e3be7bb09f068d8654413a') in 0.015045 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000170 seconds.
-  path: Assets/Jun/06. TileMap/tliemap_15.asset
-  artifactKey: Guid(e5677b48a885e7c4085cf0bb1237c832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jun/06. TileMap/tliemap_15.asset using Guid(e5677b48a885e7c4085cf0bb1237c832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae2c8f02da0371603b9abf20f5a81655') in 0.006229 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000163 seconds.
-  path: Assets/Jun/06. TileMap/tliemap_12.asset
-  artifactKey: Guid(648a8c261deac4d49a48004440d74ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jun/06. TileMap/tliemap_12.asset using Guid(648a8c261deac4d49a48004440d74ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f8c551ed399476eb7b3f0b3083078cc') in 0.009035 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/Jun/06. TileMap/tliemap_17.asset
-  artifactKey: Guid(a4c1ab381f8b101459a47ef11d31e123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jun/06. TileMap/tliemap_17.asset using Guid(a4c1ab381f8b101459a47ef11d31e123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6553a7e1697422b2b9ee3ab24b4b287a') in 0.011321 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/Jun/06. TileMap/tliemap_10.asset
-  artifactKey: Guid(e5004af2c69d64c44b9666194d856295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jun/06. TileMap/tliemap_10.asset using Guid(e5004af2c69d64c44b9666194d856295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ef4bf8e0c70da0c283fc2f04bbfc3c1') in 0.010317 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/Jun/06. TileMap/tliemap_13.asset
-  artifactKey: Guid(cad0c6bf1d248384e84f476f1dbb4f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jun/06. TileMap/tliemap_13.asset using Guid(cad0c6bf1d248384e84f476f1dbb4f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '253e99fb1f30d588791895e16764bd14') in 0.009047 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/Jun/06. TileMap/tliemap_9.asset
-  artifactKey: Guid(2ed2d088ac86dc74cb164be4c3fd8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jun/06. TileMap/tliemap_9.asset using Guid(2ed2d088ac86dc74cb164be4c3fd8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '067113005c22f476db7f197f5fdeadee') in 0.007093 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/Jun/06. TileMap/tliemap_16.asset
-  artifactKey: Guid(26ad940f4a09e0545b24c139763acbee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jun/06. TileMap/tliemap_16.asset using Guid(26ad940f4a09e0545b24c139763acbee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b7313933f4ddce25c6dc34ecd97b304') in 0.008314 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/Jun/06. TileMap/tliemap_11.asset
-  artifactKey: Guid(e19ae1031b60ddd4284656d90d4a6d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jun/06. TileMap/tliemap_11.asset using Guid(e19ae1031b60ddd4284656d90d4a6d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2daf29cd0b326e6ef333e0b41bd1458a') in 0.006459 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000165 seconds.
-  path: Assets/Jun/06. TileMap/tliemap_14.asset
-  artifactKey: Guid(18ac05479eb62ec47b233ccc151e19e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jun/06. TileMap/tliemap_14.asset using Guid(18ac05479eb62ec47b233ccc151e19e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d0b0e24c232331f66993195c69aa615') in 0.007317 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000170 seconds.
-  path: Assets/Jun/06. TileMap/tliemap_23.asset
-  artifactKey: Guid(debd74b76cd1f8b46941ae7c9d98ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jun/06. TileMap/tliemap_23.asset using Guid(debd74b76cd1f8b46941ae7c9d98ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6da3ea106811abcad1285496dcdec58a') in 0.009894 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.588140 seconds.
-  path: Assets/Jun/03. Image/UI/Stone.prefab
-  artifactKey: Guid(6f1378d23217f914f8bcaccc37dd96d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jun/03. Image/UI/Stone.prefab using Guid(6f1378d23217f914f8bcaccc37dd96d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d74ae85a2462d5d3ede6695cd1e1e81') in 0.012050 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 16.072756 seconds.
-  path: Assets/Jun/03. Image/Spike.prefab
-  artifactKey: Guid(3335d025487076047a242d2caf3de83b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jun/03. Image/Spike.prefab using Guid(3335d025487076047a242d2caf3de83b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d6c2da9869a0b96801d96cb1f223bae') in 0.008745 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.622384 seconds.
-  path: Assets/Jun/03. Image/Spike.prefab
-  artifactKey: Guid(3335d025487076047a242d2caf3de83b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jun/03. Image/Spike.prefab using Guid(3335d025487076047a242d2caf3de83b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '343d1c4c5a73c9f2d189c9ddec09e3f9') in 0.011672 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.459218 seconds.
-  path: Assets/Jun/03. Image/Spike.prefab
-  artifactKey: Guid(3335d025487076047a242d2caf3de83b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jun/03. Image/Spike.prefab using Guid(3335d025487076047a242d2caf3de83b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8ef3c1469f58b5753a63f8d8b911ddf') in 0.008252 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003104 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.720 seconds
-Domain Reload Profiling:
-	ReloadAssembly (721ms)
-		BeginReloadAssembly (88ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (22ms)
-		EndReloadAssembly (588ms)
-			LoadAssemblies (80ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (189ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (239ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (71ms)
-				ProcessInitializeOnLoadAttributes (146ms)
-				ProcessInitializeOnLoadMethodAttributes (11ms)
-				AfterProcessingInitializeOnLoad (7ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (83ms)
+				ProcessInitializeOnLoadAttributes (192ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (15ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.34 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2362 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 108.4 MB.
-System memory in use after: 108.5 MB.
+Unloading 2361 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 108.3 MB.
+System memory in use after: 108.3 MB.
 
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2848.
-Total: 2.235500 ms (FindLiveObjects: 0.132300 ms CreateObjectMapping: 0.047400 ms MarkObjects: 1.966700 ms  DeleteObjects: 0.088200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003533 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.33 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.700 seconds
-Domain Reload Profiling:
-	ReloadAssembly (700ms)
-		BeginReloadAssembly (92ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (21ms)
-		EndReloadAssembly (559ms)
-			LoadAssemblies (88ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (182ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (27ms)
-			SetupLoadedEditorAssemblies (221ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (63ms)
-				ProcessInitializeOnLoadAttributes (136ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (3ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.33 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2362 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 108.5 MB.
-System memory in use after: 108.6 MB.
-
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2851.
-Total: 2.092400 ms (FindLiveObjects: 0.109400 ms CreateObjectMapping: 0.042400 ms MarkObjects: 1.856900 ms  DeleteObjects: 0.082800 ms)
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2812.
+Total: 5.404600 ms (FindLiveObjects: 0.271800 ms CreateObjectMapping: 0.216600 ms MarkObjects: 4.740900 ms  DeleteObjects: 0.173700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -850,55 +342,127 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 84.093591 seconds.
-  path: Assets/Jun/03. Image/UI/t3.png
-  artifactKey: Guid(a9d1d24a5efc1084f888328c717f7bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jun/03. Image/UI/t3.png using Guid(a9d1d24a5efc1084f888328c717f7bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '615f4463a948637c7a693a1e98d718eb') in 0.040726 seconds 
+  Time since last request: 97.414535 seconds.
+  path: Assets/Chan/LinesDrawer.cs
+  artifactKey: Guid(be60127287ddac44e9be154c88555670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chan/LinesDrawer.cs using Guid(be60127287ddac44e9be154c88555670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '688e2a64865673e7bd8ea731f76443ea') in 0.006133 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003507 seconds.
+Registered in 0.003780 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-0000026E63B88030 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E728CEE20 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026FFD9E6840 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E66CE2640 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E6869E010 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E62870010 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026FFE68CC40 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E62DA45D0 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E6869E010 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E638EA420 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E624D46F0 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E66A92020 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E6818DE90 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E674B5030 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E624FB900 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E681BE360 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E6322C530 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E624FB900 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E67562D50 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E63A21010 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E63A30430 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E6252A410 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026FFE4EC040 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026FFE4AC550 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E66E25420 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E674B5030 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E63959020 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E65E06A50 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E66E44D60 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E62BD2010 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E674B5030 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E62DA3430 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E66E23060 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E624FB900 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026FFD9E6840 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E674B5030 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.706 seconds
+- Completed reload, in  1.071 seconds
 Domain Reload Profiling:
-	ReloadAssembly (707ms)
-		BeginReloadAssembly (95ms)
+	ReloadAssembly (1072ms)
+		BeginReloadAssembly (149ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (23ms)
-		EndReloadAssembly (567ms)
-			LoadAssemblies (88ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (855ms)
+			LoadAssemblies (132ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (181ms)
+			SetupTypeCache (274ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (228ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (344ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (66ms)
-				ProcessInitializeOnLoadAttributes (139ms)
-				ProcessInitializeOnLoadMethodAttributes (11ms)
-				AfterProcessingInitializeOnLoad (7ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (94ms)
+				ProcessInitializeOnLoadAttributes (213ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (15ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (3ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.33 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2362 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 108.6 MB.
-System memory in use after: 108.6 MB.
+Unloading 2361 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 108.3 MB.
+System memory in use after: 108.4 MB.
 
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2857.
-Total: 2.287300 ms (FindLiveObjects: 0.138000 ms CreateObjectMapping: 0.075200 ms MarkObjects: 1.979200 ms  DeleteObjects: 0.093700 ms)
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2815.
+Total: 5.451000 ms (FindLiveObjects: 0.341300 ms CreateObjectMapping: 0.188200 ms MarkObjects: 4.730000 ms  DeleteObjects: 0.189900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -910,3 +474,1377 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005281 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000026E63B88030 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E728CF1C0 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026FFD9E6840 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E6641E1B0 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E6869E010 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026FFE03B010 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026FFE68CC40 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E63383010 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E63B3C010 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E6869E010 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026FFE486F40 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E6608F020 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E6818DE90 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E6332A4D0 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E63383010 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E681BE360 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E6322C530 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026FFE3C2AD0 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E67562D50 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E62069020 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E638CB010 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E6252A410 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E6818DE90 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E66933030 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E66E25420 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026FFE68CC40 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E638CB010 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026FFE4AE150 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E67A08650 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026FFE2ECCD0 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026FFDE29A20 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E6641E1B0 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E66E233C0 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E63383010 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026FFD9E6840 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026FFDE29A20 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.150 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1150ms)
+		BeginReloadAssembly (140ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (934ms)
+			LoadAssemblies (127ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (303ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (356ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (93ms)
+				ProcessInitializeOnLoadAttributes (218ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (18ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2361 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 108.3 MB.
+System memory in use after: 108.4 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2818.
+Total: 4.294300 ms (FindLiveObjects: 0.283200 ms CreateObjectMapping: 0.138500 ms MarkObjects: 3.713600 ms  DeleteObjects: 0.158000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003714 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000026E63A30430 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E728CEE20 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026FFD9E6840 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E668BF240 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E6332A4D0 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E620E3730 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E66067020 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E62DA45D0 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E63220530 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E6332A4D0 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E63B88030 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E669E4070 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026FFD9E6840 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E66BCE010 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E62DA45D0 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E66735020 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026FFE56E690 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026FFE3C2AD0 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E67562D50 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E68152120 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026FFE573DA0 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E65D6D020 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026FFE4EC040 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E68152120 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E66E25420 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E66BCE010 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026FFE573DA0 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E63BAF240 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E68159800 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E670F5040 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E63B3C010 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E668BF240 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E66E24800 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E62DA45D0 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026FFD9E6840 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E6332A4D0 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.040 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1040ms)
+		BeginReloadAssembly (142ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (830ms)
+			LoadAssemblies (131ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (279ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (324ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (83ms)
+				ProcessInitializeOnLoadAttributes (205ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2361 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 108.3 MB.
+System memory in use after: 108.4 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2821.
+Total: 3.932200 ms (FindLiveObjects: 0.375500 ms CreateObjectMapping: 0.177200 ms MarkObjects: 3.207600 ms  DeleteObjects: 0.170700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003140 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000026E63A30430 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E728CEE20 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026FFD9E6840 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026FFE396C30 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E6869E010 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E66B470A0 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E65F6F010 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E62DA45D0 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E6332A4D0 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E6869E010 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E6306C040 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E663E1150 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026FFD9E6840 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E65F6F010 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E62DA45D0 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E665EF020 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E66B2ABC0 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E62DA45D0 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E67562D50 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E66933030 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E675AC020 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E65D6D020 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026FFE4EC040 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E66933030 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E66E25420 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E65F6F010 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E675AC020 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026FFE2D76F0 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E63EF3620 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E66771070 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E6332A4D0 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026FFE396C30 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E66E233C0 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E62DA45D0 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026FFD9E6840 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E65F6F010 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.116 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1117ms)
+		BeginReloadAssembly (152ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (890ms)
+			LoadAssemblies (144ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (313ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (324ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (94ms)
+				ProcessInitializeOnLoadAttributes (195ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2361 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 108.3 MB.
+System memory in use after: 108.3 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2824.
+Total: 3.199900 ms (FindLiveObjects: 0.422500 ms CreateObjectMapping: 0.150800 ms MarkObjects: 2.505900 ms  DeleteObjects: 0.119400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004163 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000026E63A30430 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E728CEE20 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026FFD9E6840 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E660A01A0 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E6869E010 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E620E3730 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026FFE68CC40 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E62DA45D0 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026FFDC2D010 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E6869E010 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E6306C040 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E663E1150 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E63334300 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026FFE68CC40 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E62DA45D0 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E63E18020 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E66B30440 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E62DA45D0 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E62D6A020 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E68A18080 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E6311F020 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E65D6D020 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E681BA130 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E68A18080 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E66E25420 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E62230010 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E6311F020 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E668A5120 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E6641E050 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E667F9020 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026FFDC2D010 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E63E83060 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E66E24650 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E62DA45D0 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026FFD9E6840 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E62230010 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.160 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1161ms)
+		BeginReloadAssembly (138ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (944ms)
+			LoadAssemblies (137ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (271ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (402ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (92ms)
+				ProcessInitializeOnLoadAttributes (254ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (22ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2361 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 108.4 MB.
+System memory in use after: 108.4 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2827.
+Total: 4.718500 ms (FindLiveObjects: 0.273600 ms CreateObjectMapping: 0.144200 ms MarkObjects: 4.123700 ms  DeleteObjects: 0.175900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003099 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000026E63A30430 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E728CEE20 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026FFD9E6840 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E65FC2130 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E6869E010 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E63501010 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E65F6F010 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E62DA45D0 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026FFDC2D010 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E6869E010 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E6306C040 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E663E1150 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E621E9E50 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E65F6F010 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E62DA45D0 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E63E74020 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E66B2EE20 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E62DA45D0 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E62D6A020 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026FFE322030 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E65A92020 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E65D6D020 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E621E9E50 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026FFE322030 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E62945400 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E65F6F010 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026FFE2FE010 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026FFE0F3E60 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026FFE3C8550 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E6897C020 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026FFDC2D010 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E65FC2130 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E66E23F90 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E62DA45D0 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026FFD9E6840 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E65F6F010 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.037 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1038ms)
+		BeginReloadAssembly (149ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (814ms)
+			LoadAssemblies (141ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (266ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (322ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (84ms)
+				ProcessInitializeOnLoadAttributes (203ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2361 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 108.4 MB.
+System memory in use after: 108.4 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2830.
+Total: 5.335200 ms (FindLiveObjects: 0.322200 ms CreateObjectMapping: 0.237600 ms MarkObjects: 4.593300 ms  DeleteObjects: 0.180900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003673 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000026E63A30430 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E728CEE20 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026FFD9E6840 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E6372A640 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E6869E010 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E69ED12F0 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E669E4070 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E62DA45D0 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E6869E010 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E6869E010 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026FFE39DEC0 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E663E1150 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E752005E0 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E669E4070 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E62DA45D0 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E69706010 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E66B30440 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E62DA45D0 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E6A354010 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E683C3250 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026FFDE15010 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E65D6D020 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E752005E0 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E660DB020 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E66E25420 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E669E4070 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E6370EFA0 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E668B31F0 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026FFE3C8550 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E68B2E010 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E669E4070 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E65B89190 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E66E23570 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E62DA45D0 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026FFD9E6840 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E669E4070 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.081 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1081ms)
+		BeginReloadAssembly (141ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (868ms)
+			LoadAssemblies (128ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (291ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (343ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (90ms)
+				ProcessInitializeOnLoadAttributes (214ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2361 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 108.4 MB.
+System memory in use after: 108.4 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2833.
+Total: 3.936700 ms (FindLiveObjects: 0.346200 ms CreateObjectMapping: 0.276700 ms MarkObjects: 3.147100 ms  DeleteObjects: 0.165600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 784.632230 seconds.
+  path: Assets/Data/Save
+  artifactKey: Guid(86494db6a228af140950c80353dd1509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Save using Guid(86494db6a228af140950c80353dd1509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d19564a4cd7c99274a958e5b02524b6') in 0.008491 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.236646 seconds.
+  path: Assets/Data/Save/SaveJon 1.prefab
+  artifactKey: Guid(5d8003aabe0ca4843b4d6a47dcfef581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Save/SaveJon 1.prefab using Guid(5d8003aabe0ca4843b4d6a47dcfef581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '091ef1a44a0c1cd3a55f1c4c5d2d821b') in 0.054188 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/Data/Save/SavePoint1.prefab
+  artifactKey: Guid(783596fc01d539f409eff6d2aca5060f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Save/SavePoint1.prefab using Guid(783596fc01d539f409eff6d2aca5060f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a694f2d1d85eff3e3033d374cf411b97') in 0.007586 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000398 seconds.
+  path: Assets/Data/Save/SavePoint3.prefab
+  artifactKey: Guid(53f16a8ba00702741aca5c68b8420f59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Save/SavePoint3.prefab using Guid(53f16a8ba00702741aca5c68b8420f59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac67a6645f468004dc0256b7a477945e') in 0.008184 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000391 seconds.
+  path: Assets/Data/Save/SavePoint2.prefab
+  artifactKey: Guid(1b00c6bd5aea135478a70b00d2746025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Save/SavePoint2.prefab using Guid(1b00c6bd5aea135478a70b00d2746025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20c892ac4348af5dc6f3590c865923ed') in 0.008601 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000418 seconds.
+  path: Assets/Data/Save/SaveJon 2.prefab
+  artifactKey: Guid(f64d57c1694a2d64289adcc38286b90b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Save/SaveJon 2.prefab using Guid(f64d57c1694a2d64289adcc38286b90b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4092f95cfe72fbfe5848e8e9a99425c') in 0.010672 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/Data/Save/SaveJon.prefab
+  artifactKey: Guid(c11998a0b69a4f44c88ccb8418d6b13c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Save/SaveJon.prefab using Guid(c11998a0b69a4f44c88ccb8418d6b13c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43f46b4db7d9eae836ee2fd97fb149e1') in 0.013463 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 520.343627 seconds.
+  path: Assets/Jun/01. Script/BtnManager.cs
+  artifactKey: Guid(985079787f6b58c4286d135334d49d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jun/01. Script/BtnManager.cs using Guid(985079787f6b58c4286d135334d49d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c0ab65cd5daa6d12d70f4897959f1a5') in 0.002427 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004905 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000026E63A30430 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E728CEE20 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E683C8270 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E63393040 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E6321F520 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E62DA45D0 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E682980C0 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026FFE240010 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026FFE5986A0 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E6321F520 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E684E4080 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E6681D010 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E66789090 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E629C0010 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026FFE240010 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E660DB020 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E66B2EE20 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026FFDBF2D60 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E6A354010 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E62069020 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026FFDEFD030 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E65D6D020 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E681C21D0 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E667C7030 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E626D4020 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E629C0010 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E65DF1040 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E62F94010 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026FFE3C8550 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E68472E70 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E679905B0 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E67412030 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E66E23C30 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026FFE240010 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E683C8270 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E6321F520 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.301 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1302ms)
+		BeginReloadAssembly (151ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (1055ms)
+			LoadAssemblies (152ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (307ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (424ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (101ms)
+				ProcessInitializeOnLoadAttributes (258ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
+				AfterProcessingInitializeOnLoad (18ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2361 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 108.4 MB.
+System memory in use after: 108.5 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2837.
+Total: 5.154300 ms (FindLiveObjects: 0.339400 ms CreateObjectMapping: 0.203800 ms MarkObjects: 4.412500 ms  DeleteObjects: 0.197500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002976 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000026E63A30430 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E728CF560 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026FFD9E6840 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E62B65A20 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E66C78030 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E62DA45D0 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E682980C0 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026FFE240010 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026FFE5986A0 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E66C78030 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E660F5020 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E6681D010 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026FFD9E6840 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026FFDE89C90 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026FFE240010 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E660DB020 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E66B2ABC0 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026FFDBF2D60 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E6A354010 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E62069020 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026FFDEFD030 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E65D6D020 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E681C41E0 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E65B32450 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E679905B0 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026FFDE89C90 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E65DF1040 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E62F94010 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026FFE3C8550 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E68472E70 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E697E0040 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E6257B1C0 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E66E24650 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026FFE240010 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026FFD9E6840 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E66C78030 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.036 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1036ms)
+		BeginReloadAssembly (147ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (815ms)
+			LoadAssemblies (156ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (273ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (299ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (82ms)
+				ProcessInitializeOnLoadAttributes (182ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2361 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 108.3 MB.
+System memory in use after: 108.4 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2840.
+Total: 3.161800 ms (FindLiveObjects: 0.238900 ms CreateObjectMapping: 0.114800 ms MarkObjects: 2.683600 ms  DeleteObjects: 0.123000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 223.665893 seconds.
+  path: Assets/Jun/01. Script/BtnManager.cs
+  artifactKey: Guid(985079787f6b58c4286d135334d49d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jun/01. Script/BtnManager.cs using Guid(985079787f6b58c4286d135334d49d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3a8c32801fd771682e9e3063b9baebc') in 0.006152 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002943 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000026E63A30430 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E728CEE20 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E751FD8D0 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E6741AED0 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E66C78030 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E689B4090 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E682980C0 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026FFE240010 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E697E0040 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E66C78030 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E660F5020 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026FFE68CC40 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E751FD8D0 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E62D22020 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026FFE240010 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E660DB020 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E66B2D800 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026FFDBF2D60 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E6A354010 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E65B32040 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E69B0A020 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E65D6D020 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E751FD8D0 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E65B32040 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E62035A50 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026FFDE89C90 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026FFDEFD030 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E66079040 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E6741AED0 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E68472E70 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E697E0040 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E6741AED0 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E66E23DE0 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026FFE240010 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E751FD8D0 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E66C78030 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.119 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1120ms)
+		BeginReloadAssembly (163ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (881ms)
+			LoadAssemblies (165ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (309ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (310ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (85ms)
+				ProcessInitializeOnLoadAttributes (188ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2361 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 108.4 MB.
+System memory in use after: 108.5 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2843.
+Total: 3.901800 ms (FindLiveObjects: 0.198300 ms CreateObjectMapping: 0.106800 ms MarkObjects: 3.419500 ms  DeleteObjects: 0.176300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 111.973863 seconds.
+  path: Assets/Jun/01. Script/SoundManager.cs
+  artifactKey: Guid(fe86d5f1c3eaaf34986d22950b259711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jun/01. Script/SoundManager.cs using Guid(fe86d5f1c3eaaf34986d22950b259711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3fc5840b56f3a403899d856caae7a4a') in 0.007696 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.205379 seconds.
+  path: Assets/Jun/01. Script/DeathZone.cs
+  artifactKey: Guid(314ed8f870e444846825d8fa7ab61434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jun/01. Script/DeathZone.cs using Guid(314ed8f870e444846825d8fa7ab61434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '622c4fb568a6032900d83509535ba098') in 0.002876 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.453629 seconds.
+  path: Assets/Jun/01. Script/ChangeCursor.cs
+  artifactKey: Guid(563935b85936d5946b0c0159f3685eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jun/01. Script/ChangeCursor.cs using Guid(563935b85936d5946b0c0159f3685eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '249058cc4a25700ee5e05676fdbdc748') in 0.002771 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002991 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000026E63A30430 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E728CF560 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E751FD8D0 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E623EF090 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E66C78030 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E65E01060 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E682980C0 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026FFE240010 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E66E9B6F0 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E66C78030 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E660F5020 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E689AC080 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E751FD8D0 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E62D22020 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026FFE240010 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E660DB020 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E66B2E310 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026FFE240010 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E6A354010 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E65B32040 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E69B0A020 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E65D6D020 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E751FD8D0 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E65B32040 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E62035A50 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026FFDE89C90 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026FFDEFD030 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E62708070 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E6611C230 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E65E25020 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E66E9B6F0 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E623EF090 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E66E24B60 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026FFE240010 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E751FD8D0 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026E66C78030 doesn't match image D:\Documents\GitHub\NangMan_Mook\NangMan_Mook\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.039 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1040ms)
+		BeginReloadAssembly (140ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (832ms)
+			LoadAssemblies (128ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (279ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (324ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (92ms)
+				ProcessInitializeOnLoadAttributes (196ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2361 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 108.4 MB.
+System memory in use after: 108.5 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2846.
+Total: 4.458000 ms (FindLiveObjects: 0.272300 ms CreateObjectMapping: 0.122900 ms MarkObjects: 3.914200 ms  DeleteObjects: 0.147200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.8 MB.
+System memory in use after: 61.8 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2846.
+Total: 5.167400 ms (FindLiveObjects: 0.354600 ms CreateObjectMapping: 0.186400 ms MarkObjects: 4.438800 ms  DeleteObjects: 0.185700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
