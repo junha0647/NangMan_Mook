@@ -24,7 +24,7 @@ public class PlayerController : MonoBehaviour
         Spawn();
     }
 
-    private bool isGameOver = false;
+    public bool isGameOver = false;
     private void Update()
     {
         if(!UIManager.isDraw && !isGameOver)
@@ -97,7 +97,7 @@ public class PlayerController : MonoBehaviour
 
         if (rigid.velocity.y <= 0)
         {
-            Vector2 frontVec = new Vector2(rigid.position.x + rigid.velocity.x * 0.05f, rigid.position.y);
+            Vector2 frontVec = new Vector2(rigid.position.x + rigid.velocity.x * 0.025f, rigid.position.y);
             Debug.DrawRay(frontVec, Vector3.down, new Color(1, 0, 0));
             RaycastHit2D rayHit = Physics2D.Raycast(frontVec, Vector3.down, 2.5f, LayerMask.GetMask("Platform", "Line"));
             

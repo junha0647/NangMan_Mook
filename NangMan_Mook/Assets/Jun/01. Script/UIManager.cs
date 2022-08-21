@@ -31,9 +31,10 @@ public class UIManager : MonoBehaviour
         GameOver();
     }
 
+    private bool isGameOver = false;
     private void DrawMode()
     {
-        if(!isDraw && !isPaused && (Input.GetKeyDown(KeyCode.Tab) || Input.GetKeyDown(KeyCode.G)))
+        if(!isDraw && !isPaused && !isGameOver && (Input.GetKeyDown(KeyCode.Tab) || Input.GetKeyDown(KeyCode.G)) && Player.GetComponent<PlayerController>().HealthPoint > 0)
         {
             Time.timeScale = 0;
             isDraw = true;
@@ -42,7 +43,7 @@ public class UIManager : MonoBehaviour
             CanvasGroupOn(newGroup);
             CanvasGroupOff(mainGroup);
         }
-        else if(isDraw && !isPaused && (Input.GetKeyDown(KeyCode.Tab) || Input.GetKeyDown(KeyCode.G)))
+        else if(isDraw && !LD.Drawing &&!isPaused && (Input.GetKeyDown(KeyCode.Tab) || Input.GetKeyDown(KeyCode.G)))
         {
             Time.timeScale = 1;
             isDraw = false;
@@ -53,7 +54,6 @@ public class UIManager : MonoBehaviour
         }
     }
 
-    private bool isGameOver = false;
     private void GameOver()
     {
         if(Player.GetComponent<PlayerController>().HealthPoint <= 0 && !isGameOver)
@@ -65,6 +65,7 @@ public class UIManager : MonoBehaviour
 
     public void MapOut()
     {
+        isGameOver = true;
         StartCoroutine(GameOverScene());
     }
 

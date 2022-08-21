@@ -149,5 +149,6 @@ public class DataController : MonoBehaviour
         _gameData.isClear2Count = 0;
         _gameData.isClear3Count = 0;
         _gameData.isClear4Count = 0;
+        SaveGameData();
     }
 }

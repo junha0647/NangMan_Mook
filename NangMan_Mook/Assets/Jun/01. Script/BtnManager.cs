@@ -29,6 +29,7 @@ public class BtnManager : MonoBehaviour
         {
             case BTNType.Start:
                 SceneManager.LoadScene("Jun"); // 메인 씬 만들기
+                DataController.Instance.SaveReset();
                 break;
             case BTNType.Exit:
                 DataController.Instance.SaveReset();
@@ -56,10 +57,10 @@ public class BtnManager : MonoBehaviour
                 break;
             case BTNType.GoToTitle:
                 SceneManager.LoadScene("01. TitleScene");
+                DataController.Instance.SaveReset();
                 break;
             case BTNType.Retry:
                 SceneManager.LoadScene("Jun"); // static 변수를 활용하여 체크 포인트 형식으로 하기
-                DataController.Instance.SaveReset();
                 break;
         }
     }

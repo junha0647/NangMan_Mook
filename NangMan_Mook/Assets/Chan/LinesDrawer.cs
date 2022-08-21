@@ -84,7 +84,7 @@ public class LinesDrawer : MonoBehaviour
         RaycastHit2D hit = Physics2D.CircleCast(mousePosition, lineWidth / 5f, Vector2.zero, 0.5f, cantDrawOverLayer[0]);
         Debug.DrawRay(mousePosition, Vector2.down, new Color(1, 0, 0));
 
-        if (hit || currentLine.circleCount > 80)
+        if (hit || currentLine.circleCount > 50)
         {
             EndDraw();
         }

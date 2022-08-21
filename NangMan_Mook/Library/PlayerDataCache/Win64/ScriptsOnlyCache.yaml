@@ -24,6 +24,7 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
     - UnityEditor.U2D.IK.IKEditorManager
+    - UnityEditor.U2D.IK.IKGizmos
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridBrush
     - UnityEditor.Tilemaps.GridBrushEditor
@@ -498,7 +499,7 @@ ScriptsOnlyBuild:
     className: CinemachinePixelPerfect
   - hash:
       serializedVersion: 2
-      Hash: c796b3cf132a9447cbad627ca94d7d80
+      Hash: ecc70fce8417fb2683032f038a4e4ed6
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerController

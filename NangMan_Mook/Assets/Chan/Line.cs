@@ -85,7 +85,7 @@ public class Line : MonoBehaviour
             circleColliderRadius = width / 3f;
             SetPointsMinDistance(0.6f);
         }
-        else if(width > 0.3)
+        else if(width > 0.2)
         {
             circleColliderRadius = width / 2.5f;
             SetPointsMinDistance(0.4f);
@@ -160,5 +160,13 @@ public class Line : MonoBehaviour
         yield return new WaitForSeconds(DestroyTime);
         Destroy(this.gameObject);
         yield return null;
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if(collision.gameObject.tag == "DeathZone")
+        {
+            Destroy(this.gameObject);
+        }
     }
 }
